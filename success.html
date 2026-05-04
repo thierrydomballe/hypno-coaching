@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Message envoyé — Thierry Domballe</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    font-family: "Jost", sans-serif;
+    background: #f5f0e8;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+  .card {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 56px 48px;
+    max-width: 520px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 20px 60px rgba(44,58,40,0.10);
+  }
+  .icon {
+    width: 64px; height: 64px;
+    background: rgba(74,103,65,0.10);
+    border: 1px solid rgba(74,103,65,0.2);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    margin: 0 auto 28px;
+  }
+  .icon svg { width: 28px; height: 28px; stroke: #4a6741; fill: none; stroke-width: 2; }
+  h1 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 36px; font-weight: 600;
+    color: #2c3a28; line-height: 1.1;
+    margin-bottom: 16px;
+  }
+  p {
+    font-size: 16px; font-weight: 300;
+    line-height: 1.75; color: #5a5a5a;
+    margin-bottom: 12px;
+  }
+  .email {
+    font-size: 14px; font-weight: 400;
+    color: #4a6741; margin-bottom: 36px;
+  }
+  .btn {
+    display: inline-block;
+    background: #4a6741; color: white;
+    font-family: "Jost", sans-serif;
+    font-size: 14px; font-weight: 500;
+    padding: 14px 32px; border-radius: 28px;
+    text-decoration: none;
+    transition: background .3s, transform .3s;
+  }
+  .btn:hover { background: #2c3a28; transform: translateY(-1px); }
+  .divider {
+    width: 48px; height: 2px;
+    background: #c49a6c;
+    margin: 24px auto;
+    border-radius: 2px;
+  }
+  @media(max-width:480px) {
+    .card { padding: 40px 24px; }
+    h1 { font-size: 28px; }
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="icon">
+      <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+    </div>
+    <h1>Message bien reçu</h1>
+    <div class="divider"></div>
+    <p>Merci pour votre message. Je reviens vers vous dans les meilleurs délais pour convenir d'un premier échange.</p>
+    <p class="email">contact@thierry-domballe.fr · 07 60 50 72 51</p>
+    <a href="/" class="btn">Retour au site</a>
+  </div>
+</body>
+</html>
