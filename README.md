@@ -1,22 +1,34 @@
-# Thierry Domballe — Hypnose & Coaching — V8 Final
+# Thierry Domballe — Hypnose & Coaching — V10
 
-## Fichiers à uploader sur GitHub (TOUS les 5)
-- index.html     ← Site complet, photo en fichier séparé
-- photo.jpg      ← Photo de profil (NOUVEAU - fichier séparé)
-- success.html   ← Page confirmation formulaire
-- netlify.toml   ← Config Netlify
-- README.md      ← Ce fichier
+## Fichiers à uploader sur GitHub (TOUS)
 
-## Pourquoi ce changement ?
-La photo était encodée en base64 directement dans index.html.
-Ce fichier trop volumineux empêchait Netlify de scanner
-et détecter le formulaire data-netlify="true".
-En séparant la photo, Netlify peut maintenant parser
-correctement le formulaire.
+| Fichier | Action | Description |
+|---------|--------|-------------|
+| index.html | Remplacer | Site FR complet V10 |
+| index-en.html | NOUVEAU | Site EN complet V10 |
+| photo.jpg | Remplacer | Nouvelle photo (veste bleue, bibliothèque) |
+| photo.webp | Remplacer | Nouvelle photo WebP |
+| success.html | Remplacer | Page confirmation formulaire |
+| sitemap.xml | Remplacer | Sitemap mis à jour FR+EN |
+| netlify.toml | Remplacer | Config Netlify |
+| landing-template.html | Conserver | Modèle landing page |
+| README.md | Remplacer | Ce fichier |
 
-## Config Netlify formulaire (1 fois)
-Site configuration > Forms > Form notifications
-> Add notification > Email > contact@thierry-domballe.fr
+## Nouveautés V10
+- Version EN complète et fonctionnelle (index-en.html)
+- Bascule FR/EN dans nav desktop ET mobile (hamburger)
+- "à Boulogne-Billancourt" supprimé — "en visio" seulement
+- EMDR → Hypno-MDR partout (outils, timeline, étapes, FAQ)
+- FAQ : nouvelle question "Qu'est-ce que l'Hypno-MDR ?"
+- Alignement timeline corrigé (badge + contenu côte à côte)
+- Nouvelle photo haute définition (veste bleue marine, bibliothèque)
+- Sitemap mis à jour avec hreflang FR/EN
+- GA4 G-KZE3GL4B47 présent
+
+## Après déploiement
+1. Soumettre sitemap.xml dans Google Search Console
+2. Vérifier bascule FR/EN sur desktop et mobile
+3. Tester formulaire → success.html
 
 ## Contact
 - Email : contact@thierry-domballe.fr

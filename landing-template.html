@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>[TITRE PAGE] | Thierry Domballe — Hypnose & Coaching</title>
+<meta name="description" content="[META DESCRIPTION — 150 caractères max]">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://thierry-domballe.fr/[NOM-PAGE]">
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KZE3GL4B47"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KZE3GL4B47');
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --vert:#4a6741;--vert-fonce:#2c3a28;
+  --vert-clair:rgba(74,103,65,0.08);--vert-bord:rgba(74,103,65,0.2);
+  --or:#c49a6c;--beige:#f5f0e8;--blanc:#ffffff;
+  --texte:#2c2c2c;--gris:#5a5a5a;--gris-clair:#e8e4dc;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:"Jost",sans-serif;background:var(--beige);color:var(--texte);font-size:16px;}
+/* NAV SIMPLE */
+.lp-nav{background:rgba(245,240,232,0.96);border-bottom:1px solid var(--gris-clair);padding:16px 52px;display:flex;align-items:center;justify-content:space-between;}
+.lp-nav-logo{display:flex;align-items:center;gap:12px;text-decoration:none;}
+.lp-nav-icon{width:32px;height:32px;background:var(--vert);border-radius:50%;display:flex;align-items:center;justify-content:center;}
+.lp-nav-icon svg{width:14px;height:14px;fill:white;}
+.lp-nav-name{font-family:"Cormorant Garamond",serif;font-size:16px;font-weight:600;color:var(--vert-fonce);}
+.lp-nav-back{font-size:13px;color:var(--gris);text-decoration:none;display:flex;align-items:center;gap:6px;}
+.lp-nav-back:hover{color:var(--vert);}
+/* HERO LP */
+.lp-hero{max-width:800px;margin:0 auto;padding:72px 40px 56px;}
+.lp-eyebrow{font-size:11px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--or);margin-bottom:16px;display:flex;align-items:center;gap:12px;}
+.lp-eyebrow::before{content:"";width:28px;height:1px;background:var(--or);}
+.lp-h1{font-family:"Cormorant Garamond",serif;font-size:clamp(32px,4vw,52px);font-weight:600;color:var(--vert-fonce);line-height:1.1;margin-bottom:20px;}
+.lp-h1 em{font-style:italic;font-weight:400;color:var(--or);}
+.lp-intro{font-size:17px;font-weight:300;line-height:1.8;color:var(--gris);margin-bottom:16px;}
+.lp-promise{font-size:15px;font-weight:300;line-height:1.75;color:var(--gris);padding-left:14px;border-left:2px solid var(--or);margin-bottom:36px;}
+.btn-primary{display:inline-block;background:var(--vert);color:white;font-family:"Jost",sans-serif;font-size:14px;font-weight:500;padding:14px 28px;border-radius:28px;text-decoration:none;transition:all .3s;}
+.btn-primary:hover{background:var(--vert-fonce);transform:translateY(-1px);}
+/* CONTENU LP */
+.lp-content{max-width:800px;margin:0 auto;padding:0 40px 72px;}
+.lp-section{margin-bottom:48px;}
+.lp-section-title{font-family:"Cormorant Garamond",serif;font-size:28px;font-weight:600;color:var(--vert-fonce);margin-bottom:16px;}
+.lp-text{font-size:16px;font-weight:300;line-height:1.8;color:var(--gris);margin-bottom:14px;}
+/* FORMULAIRE LP */
+.lp-form-section{background:var(--vert-fonce);padding:56px 40px;text-align:center;}
+.lp-form-title{font-family:"Cormorant Garamond",serif;font-size:32px;font-weight:600;color:white;margin-bottom:12px;}
+.lp-form-title em{font-style:italic;color:var(--or);}
+.lp-form-lead{font-size:15px;font-weight:300;color:rgba(240,235,226,0.55);margin-bottom:36px;}
+.lp-form{max-width:480px;margin:0 auto;text-align:left;}
+.form-group{margin-bottom:13px;}
+.form-group label{display:block;font-size:10px;font-weight:500;letter-spacing:.15em;text-transform:uppercase;color:rgba(196,154,108,.65);margin-bottom:6px;}
+.form-group input,.form-group textarea,.form-group select{width:100%;background:rgba(255,255,255,.06);border:1px solid rgba(196,154,108,.22);border-radius:8px;color:#f0ebe2;font-family:"Jost",sans-serif;font-size:15px;font-weight:300;padding:12px 15px;outline:none;appearance:none;}
+.form-group input:focus,.form-group textarea:focus{border-color:var(--or);}
+.form-group input::placeholder,.form-group textarea::placeholder{color:rgba(240,235,226,0.25);}
+.form-group textarea{resize:vertical;min-height:80px;}
+.btn-submit{width:100%;background:var(--or);color:var(--vert-fonce);border:none;border-radius:8px;font-family:"Jost",sans-serif;font-size:15px;font-weight:500;padding:14px;cursor:pointer;transition:all .3s;margin-top:5px;}
+.btn-submit:hover{background:#d4aa7a;}
+/* FOOTER LP */
+.lp-footer{background:#1a2416;padding:20px 52px;display:flex;justify-content:space-between;align-items:center;border-top:1px solid rgba(74,103,65,.2);}
+.lp-footer-text{font-size:12px;color:rgba(255,255,255,.25);}
+.lp-footer-link{font-size:12px;color:rgba(255,255,255,.25);text-decoration:none;}
+.lp-footer-link:hover{color:var(--or);}
+@media(max-width:768px){
+  .lp-nav{padding:14px 20px;}
+  .lp-hero,.lp-content{padding-left:22px;padding-right:22px;}
+  .lp-form-section{padding:40px 22px;}
+  .lp-footer{padding:16px;flex-direction:column;gap:8px;text-align:center;}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="lp-nav">
+  <a href="/" class="lp-nav-logo">
+    <div class="lp-nav-icon"><svg viewBox="0 0 24 24"><path d="M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1-2.3A4.49 4.49 0 008 20C19 20 22 3 22 3c-1 2-8 2-8 2s-3.5 7-7 8c-.5.1-1 .1-1.5 0A13.84 13.84 0 0117 8z"/></svg></div>
+    <span class="lp-nav-name">Thierry Domballe</span>
+  </a>
+  <a href="/" class="lp-nav-back">← Retour au site</a>
+</nav>
+
+<!-- HERO -->
+<div class="lp-hero">
+  <div class="lp-eyebrow">[THÉMATIQUE — ex: Hypnose &amp; Coaching · Arrêt du tabac]</div>
+  <h1 class="lp-h1">[TITRE PRINCIPAL<br><em>accrocheur et orienté résultat]</em></h1>
+  <p class="lp-intro">[PHRASE D'ACCROCHE — problème du client, 1-2 phrases]</p>
+  <p class="lp-promise">[PROMESSE PRINCIPALE — ce que le client obtient concrètement]</p>
+  <a href="#contact-lp" class="btn-primary">Échange de découverte</a>
+</div>
+
+<!-- CONTENU -->
+<div class="lp-content">
+  <div class="lp-section">
+    <h2 class="lp-section-title">[TITRE SECTION 1]</h2>
+    <p class="lp-text">[Contenu — problème, vécu du client, empathie]</p>
+  </div>
+  <div class="lp-section">
+    <h2 class="lp-section-title">[TITRE SECTION 2 — La solution]</h2>
+    <p class="lp-text">[Contenu — comment l'hypnose/coaching répond à ce problème spécifique]</p>
+  </div>
+  <div class="lp-section">
+    <h2 class="lp-section-title">[TITRE SECTION 3 — Pourquoi moi]</h2>
+    <p class="lp-text">[Contenu — légitimité, expérience, certification coach certifié]</p>
+  </div>
+</div>
+
+<!-- FORMULAIRE -->
+<div class="lp-form-section" id="contact-lp">
+  <h2 class="lp-form-title">Réserver votre <em>échange de découverte</em></h2>
+  <p class="lp-form-lead">30 minutes, gratuit, en visio. Pour voir si nous pouvons travailler ensemble.</p>
+  <form class="lp-form" name="contact-[NOM-PAGE]" method="POST" action="/success.html" data-netlify="true" netlify-honeypot="bot-field">
+    <input type="hidden" name="form-name" value="contact-[NOM-PAGE]">
+    <input type="hidden" name="page" value="[NOM-PAGE]">
+    <p style="display:none;"><label>Ne pas remplir : <input name="bot-field"></label></p>
+    <div class="form-group"><label>Prénom</label><input type="text" name="prenom" placeholder="Votre prénom" required></div>
+    <div class="form-group"><label>Email</label><input type="email" name="email" placeholder="votre@email.com" required></div>
+    <div class="form-group"><label>En quelques mots</label><textarea name="message" placeholder="Décrivez brièvement votre situation..."></textarea></div>
+    <button type="submit" class="btn-submit">Envoyer ma demande</button>
+  </form>
+</div>
+
+<!-- FOOTER -->
+<footer class="lp-footer">
+  <span class="lp-footer-text">© 2026 · Thierry Domballe — Hypnose &amp; Coaching</span>
+  <a href="/" class="lp-footer-link">Retour au site principal</a>
+</footer>
+
+</body>
+</html>
