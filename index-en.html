@@ -54,8 +54,8 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(245,240,232,
 .btn-secondary{font-size:14px;font-weight:400;color:var(--vert);text-decoration:none;display:flex;align-items:center;gap:6px;transition:gap .3s;}
 .btn-secondary:hover{gap:10px;}
 .hero-right{display:flex;align-items:center;justify-content:center;padding:24px 28px 24px 8px;background:var(--beige);overflow:hidden;}
-.hero-photo-frame{position:relative;height:100%;width:auto;border-radius:16px;overflow:hidden;box-shadow:0 16px 48px rgba(44,58,40,0.14);flex-shrink:0;}
-.hero-photo{height:100%;width:auto;max-width:100%;object-fit:cover;object-position:center 12%;display:block;border-radius:16px;}
+.hero-photo-frame{position:relative;height:100%;width:auto;max-width:260px;border-radius:16px;overflow:hidden;box-shadow:0 16px 48px rgba(44,58,40,0.14);flex-shrink:0;}
+.hero-photo{height:100%;width:auto;max-width:100%;aspect-ratio:3/4;object-fit:cover;object-position:center 12%;display:block;border-radius:16px;}
 section{padding:68px 64px;}
 .section-eyebrow{font-size:11px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--or);margin-bottom:12px;display:flex;align-items:center;gap:12px;}
 .section-eyebrow::before{content:"";width:28px;height:1px;background:var(--or);}
@@ -269,7 +269,7 @@ footer{padding:16px;flex-direction:column;text-align:center;gap:10px;}
     <span class="nav-name">Thierry Domballe — Hypnosis &amp; Coaching</span>
   </a>
   <ul class="nav-links">
-    <li><a href="#approche">Approach</a></li>
+    <li><a href="#approche">Situations</a></li>
     <li><a href="#methode">Method</a></li>
     <li><a href="#parcours">Background</a></li>
     <li><a href="#faq">FAQ</a></li>
@@ -291,7 +291,7 @@ footer{padding:16px;flex-direction:column;text-align:center;gap:10px;}
     <a href="index.html" class="">FR</a>
     <a href="index-en.html" class="active">EN</a>
   </div>
-  <a href="#approche" onclick="closeMobileMenu()">Approach</a>
+  <a href="#approche" onclick="closeMobileMenu()">Situations</a>
   <a href="#methode" onclick="closeMobileMenu()">Method</a>
   <a href="#parcours" onclick="closeMobileMenu()">Background</a>
   <a href="#faq" onclick="closeMobileMenu()">FAQ</a>
@@ -316,7 +316,7 @@ footer{padding:16px;flex-direction:column;text-align:center;gap:10px;}
     <div class="hero-photo-frame">
       <picture>
         <source srcset="photo.webp" type="image/webp">
-        <img class="hero-photo" src="photo.jpg" alt="Thierry Domballe — Hypno-Coach certifié">
+        <img class="hero-photo" src="photo.jpg" alt="Thierry Domballe — Certified Hypno-Coach">
       </picture>
     </div>
   </div>
@@ -352,7 +352,7 @@ footer{padding:16px;flex-direction:column;text-align:center;gap:10px;}
         <div class="demyst-title">Ericksonian hypnosis — what it really is</div>
         <p class="demyst-p demyst-text"><strong>Ericksonian hypnosis has nothing to do with stage hypnosis.</strong> Nobody makes you "obey", nobody puts you to sleep, nobody takes control.</p>
         <p class="demyst-p demyst-text">It is a rigorous therapeutic approach, developed by psychiatrist <strong>Milton Erickson</strong>, recognised in the medical and paramedical world.</p>
-        <p class="demyst-p demyst-text">You remain conscious and can stop at any time. What changes: your unconscious becomes more accessible.</p>
+        <p class="demyst-p demyst-text">You remain conscious and can stop at any time. What changes: your unconscious becomes more accessible. Hypnosis adapts to your natural functioning to trigger changes that are truly yours.</p>
       </div>
     </div>
     <div class="methode-right">
@@ -360,9 +360,7 @@ footer{padding:16px;flex-direction:column;text-align:center;gap:10px;}
         <div class="step"><div class="step-num">01</div><div><div class="step-title">Understand — The first session</div><p class="step-desc">Before any session, we take time to understand your situation. What you feel, what you want to change, what you've already tried. No judgement. This exchange guides everything that follows.</p></div></div>
         <div class="step"><div class="step-num">02</div><div><div class="step-title">Intervene — The working sessions</div><p class="step-desc">We use the tools best suited to your specific block. Coaching to structure action. Ericksonian hypnosis to access unconscious programmes. NLP, EFT and Hypno-MDR as complements based on your needs.</p></div></div>
         <div class="step"><div class="step-num">03</div><div><div class="step-title">Anchor — Consolidate the transformation</div><p class="step-desc">Change doesn't stop at the end of the session. We work on anchoring so that new patterns become lasting. You leave with concrete tools, not a dependence on your practitioner.</p></div></div>
-        <div class="methode-note">No prerequisites. Just the will to move forward — the rest is my work.</div>
       </div>
-      <div class="jalon4-card"><p class="jalon4-text">« Whatever your profile, hypnosis adapts to your natural functioning to trigger changes that are truly yours. »</p></div>
       <div class="format-card">
         <div class="format-title">Session format</div>
         <div class="format-grid">
@@ -387,8 +385,8 @@ footer{padding:16px;flex-direction:column;text-align:center;gap:10px;}
         <p>Training in hypnosis and coaching came to <strong>equip that understanding</strong> with a method that works where willpower and experience alone are not enough.</p>
       </div>
       <div class="posture-card">
-        <div class="posture-title">What I am not</div>
-        <div class="posture-text"><p>I am not a therapist. I do not treat clinical conditions.</p><p>What I do: lift what is preventing you from moving towards what you have already chosen.</p></div>
+        <div class="posture-title">My approach</div>
+        <div class="posture-text"><p>I lift what is preventing you from moving towards what you have already chosen.</p><p>I am not a therapist. I do not treat clinical conditions.</p></div>
       </div>
     </div>
     <div class="legit-right">

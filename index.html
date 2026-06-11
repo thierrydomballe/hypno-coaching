@@ -54,8 +54,8 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(245,240,232,
 .btn-secondary{font-size:14px;font-weight:400;color:var(--vert);text-decoration:none;display:flex;align-items:center;gap:6px;transition:gap .3s;}
 .btn-secondary:hover{gap:10px;}
 .hero-right{display:flex;align-items:center;justify-content:center;padding:24px 28px 24px 8px;background:var(--beige);overflow:hidden;}
-.hero-photo-frame{position:relative;height:100%;width:auto;border-radius:16px;overflow:hidden;box-shadow:0 16px 48px rgba(44,58,40,0.14);flex-shrink:0;}
-.hero-photo{height:100%;width:auto;max-width:100%;object-fit:cover;object-position:center 12%;display:block;border-radius:16px;}
+.hero-photo-frame{position:relative;height:100%;width:auto;max-width:260px;border-radius:16px;overflow:hidden;box-shadow:0 16px 48px rgba(44,58,40,0.14);flex-shrink:0;}
+.hero-photo{height:100%;width:auto;max-width:100%;aspect-ratio:3/4;object-fit:cover;object-position:center 12%;display:block;border-radius:16px;}
 section{padding:68px 64px;}
 .section-eyebrow{font-size:11px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--or);margin-bottom:12px;display:flex;align-items:center;gap:12px;}
 .section-eyebrow::before{content:"";width:28px;height:1px;background:var(--or);}
@@ -269,7 +269,7 @@ footer{padding:16px;flex-direction:column;text-align:center;gap:10px;}
     <span class="nav-name">Thierry Domballe — Hypnose &amp; Coaching</span>
   </a>
   <ul class="nav-links">
-    <li><a href="#approche">Approche</a></li>
+    <li><a href="#approche">Situations</a></li>
     <li><a href="#methode">Méthode</a></li>
     <li><a href="#parcours">Parcours</a></li>
     <li><a href="#faq">FAQ</a></li>
@@ -279,7 +279,7 @@ footer{padding:16px;flex-direction:column;text-align:center;gap:10px;}
       <a href="index.html" class="lang-btn active">FR</a>
       <a href="index-en.html" class="lang-btn ">EN</a>
     </div>
-    <a href="#contact" class="nav-cta">Échange de découverte</a>
+    <a href="#contact" class="nav-cta">RDV de découverte</a>
   </div>
   <div class="nav-mobile">
     <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
@@ -291,11 +291,11 @@ footer{padding:16px;flex-direction:column;text-align:center;gap:10px;}
     <a href="index.html" class="active">FR</a>
     <a href="index-en.html" class="">EN</a>
   </div>
-  <a href="#approche" onclick="closeMobileMenu()">Approche</a>
+  <a href="#approche" onclick="closeMobileMenu()">Situations</a>
   <a href="#methode" onclick="closeMobileMenu()">Méthode</a>
   <a href="#parcours" onclick="closeMobileMenu()">Parcours</a>
   <a href="#faq" onclick="closeMobileMenu()">FAQ</a>
-  <a href="#contact" onclick="closeMobileMenu()">Échange de découverte</a>
+  <a href="#contact" onclick="closeMobileMenu()">RDV de découverte</a>
 </div>
 
 <section class="hero" id="hero">
@@ -308,7 +308,7 @@ footer{padding:16px;flex-direction:column;text-align:center;gap:10px;}
       <span class="hero-tag">Phobies &amp; Addictions</span><span class="hero-tag">Transitions &amp; Changement</span>
     </div>
     <div class="hero-actions">
-      <a href="#contact" class="btn-primary">Échange de découverte</a>
+      <a href="#contact" class="btn-primary">RDV de découverte</a>
       <a href="#approche" class="btn-secondary">Découvrir l'approche →</a>
     </div>
   </div>
@@ -352,7 +352,7 @@ footer{padding:16px;flex-direction:column;text-align:center;gap:10px;}
         <div class="demyst-title">L'hypnose ericksonienne — ce que c'est vraiment</div>
         <p class="demyst-p demyst-text"><strong>L'hypnose ericksonienne n'a rien à voir avec l'hypnose de spectacle.</strong> Personne ne vous fait "obéir", ne vous endort, ne prend le contrôle.</p>
         <p class="demyst-p demyst-text">C'est une approche thérapeutique rigoureuse, développée par le psychiatre <strong>Milton Erickson</strong>, reconnue dans le monde médical et paramédical.</p>
-        <p class="demyst-p demyst-text">Vous restez conscient, vous pouvez interrompre à tout moment. Ce qui change : votre inconscient devient plus accessible.</p>
+        <p class="demyst-p demyst-text">Vous restez conscient, et votre inconscient devient plus accessible. L'hypnose s'adapte à votre fonctionnement naturel pour déclencher les changements qui vous ressemblent.</p>
       </div>
     </div>
     <div class="methode-right">
@@ -360,9 +360,7 @@ footer{padding:16px;flex-direction:column;text-align:center;gap:10px;}
         <div class="step"><div class="step-num">01</div><div><div class="step-title">Comprendre — Le premier échange</div><p class="step-desc">Avant toute séance, on prend le temps de comprendre votre situation. Ce que vous ressentez, ce que vous voulez changer, ce que vous avez déjà essayé. Pas de jugement. C'est cet échange qui oriente tout ce qui suit.</p></div></div>
         <div class="step"><div class="step-num">02</div><div><div class="step-title">Intervenir — Les séances de travail</div><p class="step-desc">On mobilise les outils adaptés à votre blocage spécifique. Coaching pour structurer le passage à l'action. Hypnose ericksonienne pour accéder aux programmes inconscients. PNL, EFT et Hypno-MDR en complément selon les besoins.</p></div></div>
         <div class="step"><div class="step-num">03</div><div><div class="step-title">Ancrer — Consolider la transformation</div><p class="step-desc">Le changement ne s'arrête pas à la fin de la séance. On travaille l'ancrage pour que les nouveaux schémas s'installent durablement. Vous repartez avec des outils concrets.</p></div></div>
-        <div class="methode-note">Aucun prérequis. Juste la volonté d'avancer — le reste, c'est mon travail.</div>
       </div>
-      <div class="jalon4-card"><p class="jalon4-text">« Peu importe votre profil, l'hypnose s'adapte à votre fonctionnement naturel pour déclencher les changements qui vous ressemblent. »</p></div>
       <div class="format-card">
         <div class="format-title">Format des séances</div>
         <div class="format-grid">
@@ -387,8 +385,8 @@ footer{padding:16px;flex-direction:column;text-align:center;gap:10px;}
         <p>La formation en hypnose et coaching est venue <strong>outiller cette compréhension</strong> d'une méthode qui agit là où la volonté et l'expérience seules ne suffisent pas.</p>
       </div>
       <div class="posture-card">
-        <div class="posture-title">Ce que je ne suis pas</div>
-        <div class="posture-text"><p>Je ne suis pas thérapeute. Je ne traite pas les pathologies cliniques.</p><p>Ce que je fais : lever ce qui vous empêche d'avancer vers ce que vous avez déjà choisi.</p></div>
+        <div class="posture-title">Ma posture</div>
+        <div class="posture-text"><p>Je lève ce qui vous empêche d'avancer vers ce que vous avez déjà choisi.</p><p>Je ne suis pas thérapeute. Je ne traite pas les pathologies cliniques.</p></div>
       </div>
     </div>
     <div class="legit-right">
@@ -466,7 +464,7 @@ footer{padding:16px;flex-direction:column;text-align:center;gap:10px;}
 
 <section class="contact" id="contact">
   <div class="section-eyebrow">Première étape</div>
-  <h2 class="section-title">Réserver votre <em>échange de découverte</em></h2>
+  <h2 class="section-title">Réserver votre <em>RDV de découverte</em></h2>
   <div class="contact-form">
     <form name="contact" method="POST" action="/success.html" data-netlify="true" netlify-honeypot="bot-field">
       <input type="hidden" name="form-name" value="contact">
